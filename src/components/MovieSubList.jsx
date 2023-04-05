@@ -59,7 +59,7 @@ const MovieSubList = () => {
                         : (event.target.textContent = "Liked");
                     }}
                     value
-                    className="btn btn-primary mx-3 "
+                    className="btn btn-danger mx-3 "
                   >
                     Like
                   </button>
