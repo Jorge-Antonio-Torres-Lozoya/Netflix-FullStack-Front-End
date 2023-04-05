@@ -1,6 +1,6 @@
 import { gql } from "@apollo/client"
 
-export const UPDATELIKES_CATALOG  =  gql`
+export const UPDATELIKES_CATALOG = gql`
 mutation updateLikes_catalog($_id:ID,$likes: Int){
     updateLikes_catalog(_id:$_id,likes:$likes){
     _id
@@ -9,7 +9,7 @@ mutation updateLikes_catalog($_id:ID,$likes: Int){
 }
 `
 
-export const CREATEMOVIE_CATALOG  =  gql`
+export const CREATEMOVIE_CATALOG = gql`
 mutation createMovie_catalog($title:String
   $description: String
     $likes: Int

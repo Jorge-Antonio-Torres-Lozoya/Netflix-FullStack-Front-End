@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import { CREATEMOVIE_CATALOG } from "../graphql/Mutation";
 import { useMutation } from "@apollo/client";
 import { useNavigate } from "react-router-dom";
@@ -6,7 +6,7 @@ import { GETMOVIES_CATALOG } from "../graphql/Queries";
 
 export const Form = () => {
   const navigate = useNavigate();
-  const [title, setTitle] = useState(""); //var name = ""
+  const [title, setTitle] = useState(""); 
   const [description, setDescription] = useState("");
   const [likes, setLikes] = useState("");
   const [image, setImage] = useState("");
