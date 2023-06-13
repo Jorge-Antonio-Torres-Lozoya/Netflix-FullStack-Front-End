@@ -11,7 +11,7 @@ import MovieSubList from './components/MovieSubList';
 function App() {
   const client = new ApolloClient({
     cache: new InMemoryCache(),
-    uri: "http://localhost:3000/",
+    uri: "https://outstanding-moth-glasses.cyclic.app",
   });
 
   return (
