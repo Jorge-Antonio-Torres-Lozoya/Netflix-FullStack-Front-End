@@ -60,7 +60,7 @@ const Login = () => {
       <button type="submit" className="text-white btn btn-danger my-3 form-button ">Iniciar Sesión</button>
 
       <div className="mb-6">
-            <p className="text-sm text-red-600 mt-5">
+            <p className="text-sm text-danger mt-5">
              {isInvalid}
             </p>
             </div>
