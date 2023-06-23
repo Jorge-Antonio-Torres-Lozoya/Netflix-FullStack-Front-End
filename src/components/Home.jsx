@@ -16,13 +16,13 @@ const Home = () => {
   });
 
   useEffect(() => {
-    // if (!verifySession.isValid) return navigate("/");
+    if (!verifySession.isValid) return navigate("/");
     getMovies();
   }, []);
   if (data) {
     console.log(data);
   }
-  // if (error) return <h1>Error: {error}</h1>;
+  if (error) return <h1>Error: {error}</h1>;
   return (
    
     <div className="d-flex gap-5 py-5 mt-5  flex-row contenedor-card bg-color">
