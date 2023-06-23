@@ -11,7 +11,7 @@ import MovieSubList from './components/MovieSubList';
 function App() {
   const client = new ApolloClient({
     cache: new InMemoryCache(),
-    uri: "https://outstanding-moth-glasses.cyclic.app",
+    uri: "https://poetic-youtiao-3942f3.netlify.app/",
   });
 
   return (
