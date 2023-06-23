@@ -16,7 +16,7 @@ const Home = () => {
   });
 
   useEffect(() => {
-    if (!verifySession.isValid) return navigate("/");
+    // if (!verifySession.isValid) return navigate("/");
     getMovies();
   }, []);
   if (data) {
