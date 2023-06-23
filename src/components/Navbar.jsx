@@ -18,12 +18,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-black fixed-top mb-4">
       <div className="container-fluid">
-        <a
+        <Link to="/home"
           className="navbar-brand text-danger navbar-logo mx-4   fw-bold
 "
         >
           NETFLIX
-        </a>
+        </Link>
 
         {getUserSession.isValid && (
           <>
